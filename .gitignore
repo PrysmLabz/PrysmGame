@@ -1,0 +1,94 @@
+# ========== Unity Specific ==========
+
+# Unity folders to ignore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Cache directories for Unity Package Manager
+[Pp]ackages/com.unity.package-manager-ui/Tests/
+[Pp]ackages/com.unity.package-manager-ui/Documentation~/
+
+# Unity auto-generated files
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.unityproj
+
+# Unity metadata files to ignore if the corresponding asset is ignored
+#*.meta
+
+# Uncomment the following line if you wish to ignore the Asset Store tools plugin
+# [Aa]ssets/AssetStoreTools*
+
+# Exclude generated lighting data
+[Ll]ightmap[s]*/ 
+[Ll]ighting[Dd]ata[.]*
+
+# Exclude auto-generated builds
+[Bb]uilds/
+*.apk
+*.aab
+*.ipa
+
+# Unity crash logs
+*.stacktrace
+
+# ========== Operating System Specific ==========
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ========== Development Environments ==========
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.idea/workspace.xml
+*.idea/tasks.xml
+.idea/.idea_modules/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.pdb
+
+# Other editors
+*.swp
+*.swo
+*.kate-swp
+
+# Logs
+*.log
+
+# ========== Additional ==========
+
+# Git specific
+.git/
+*.git/
+*.gitignore.swp
